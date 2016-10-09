@@ -5,5 +5,6 @@
 	crossorigin="anonymous"></script>
 <!-- UI KIT -->
 <script src="js/uikit.min.js"></script>
+<script src="js/upload.js"></script>
 </body>
 </html>

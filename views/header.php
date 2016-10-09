@@ -9,4 +9,4 @@
 </head>
 
 <body>
-	
+	<?php include 'upload_form.php'; ?>
