@@ -1,6 +1,6 @@
-
-    <div class="slideOut" id="slide-upload">
-        <i class="material-icons close">close</i>
+<div class="row">
+    <div id="slideOut">
+        <i class="material-icons" id="close">close</i>
         <h5>Upload image</h5>
         <form id="imageForm" enctype="multipart/form-data">
             <div class="row">
@@ -37,15 +37,7 @@
             </div>
     
         </form>
-        
-        
-        <span class="err-container">
-            <i class="material-icons">error</i>
-            <span id="upload-err" class="err"></span>
-        </span>
-        
-        <span class="success-container">
-            <i class="material-icons">check</i>
-            <span id="upload-success" class="success"></span>
-        </span>
+        <span id="errors"></span>
+        <span id="success"><i class="material-icons">check</i></span>    
     </div>
+</div>

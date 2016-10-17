@@ -1,3 +1,115 @@
+/* VARIABLES */
+html, body {
+  height: 100%; }
 
+#full-width-wrapper {
+  width: 100%;
+  height: 130px;
+  z-index: 1;
+  position: relative;
+  -webkit-box-shadow: 0 5px 10px -4px #333333;
+  box-shadow: 0 5px 10px -4px #333333; }
+
+#search-container {
+  margin-top: 50px; }
+  #search-container #searchBar {
+    padding-left: 0;
+    font-weight: 300;
+    padding: 5px;
+    font-size: 2em; }
+  #search-container #searchBar:focus {
+    border-bottom: 1px solid #ffb300;
+    box-shadow: 0 1px 0 0 #ffb300; }
+
+input:focus, textarea:focus {
+  border-bottom: 1px solid #ffb300 !important;
+  box-shadow: 0 1px 0 0 #ffb300 !important; }
+
+label:focus {
+  border-bottom: 1px solid #ffb300 !important;
+  box-shadow: 0 1px 0 0 #ffb300 !important; }
+
+#login-warning i {
+  line-height: 2em;
+  font-size: 2em;
+  cursor: pointer;
+  color: #bdbdbd; }
+#login-warning i:hover {
+  color: black; }
+
+#searchCaption {
+  padding: .5em;
+  font-size: 1.5em; }
+
+#image-container {
+  padding: 20px;
+  background-color: #eceff1;
+  z-index: -99; }
+
+#slideOut {
+  left: 0;
+  margin-top: 0;
+  width: 400px;
+  min-height: 100%;
+  margin-left: -400px;
+  padding: 40px;
+  position: absolute;
+  z-index: 999999;
+  background: #ffffff;
+  -webkit-box-shadow: 5px 0 10px -4px #333333;
+  box-shadow: 5px 0 10px -4px #333333; }
+  #slideOut #close {
+    float: right;
+    cursor: pointer; }
+  #slideOut #close:hover {
+    color: #5c5c5c; }
+
+.slideOut {
+  left: 0;
+  margin-top: 0;
+  width: 400px;
+  min-height: 100%;
+  margin-left: -400px;
+  padding: 40px;
+  position: absolute;
+  z-index: 999999;
+  background: #ffffff;
+  -webkit-box-shadow: 5px 0 10px -4px #333333;
+  box-shadow: 5px 0 10px -4px #333333; }
+  .slideOut .close {
+    float: right;
+    cursor: pointer; }
+  .slideOut .close:hover {
+    color: #5c5c5c; }
+
+.thumbnail {
+  margin-top: 3px;
+  max-height: 250px;
+  vertical-align: top; }
+
+.success {
+  color: green;
+  font-size: .9em; }
+
+.err {
+  color: red;
+  font-size: .9em;
+  line-height: .8em;
+  vertical-align: middle; }
+  .err i {
+    margin-right: 3px;
+    display: inline;
+    vertical-align: middle; }
+
+.err-container {
+  line-height: 1em;
+  color: red;
+  display: none;
+  line-height: 1em; }
+
+.success-container {
+  color: green;
+  display: none;
+  line-height: 1em; }
 
 /*# sourceMappingURL=image-gallery.css.map */

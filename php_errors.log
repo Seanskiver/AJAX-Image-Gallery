@@ -1,0 +1,23 @@
+[15-Oct-2016 19:48:25 UTC] PHP Warning:  require_once(models/user.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/register/index.php on line 2
+[15-Oct-2016 19:48:25 UTC] PHP Stack trace:
+[15-Oct-2016 19:48:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/register/index.php:0
+[15-Oct-2016 19:48:25 UTC] PHP Fatal error:  require_once(): Failed opening required 'models/user.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/register/index.php on line 2
+[15-Oct-2016 19:48:25 UTC] PHP Stack trace:
+[15-Oct-2016 19:48:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/register/index.php:0
+[15-Oct-2016 21:41:25 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/ubuntu/workspace/models/user.php on line 203
+[15-Oct-2016 21:41:25 UTC] PHP Stack trace:
+[15-Oct-2016 21:41:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/register/index.php:0
+[15-Oct-2016 21:41:25 UTC] PHP   2. User->createUser() /home/ubuntu/workspace/register/index.php:23
+[15-Oct-2016 21:41:25 UTC] PHP   3. User->genId() /home/ubuntu/workspace/models/user.php:47
+[15-Oct-2016 22:02:47 UTC] PHP Warning:  require_once(models/user.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/login/index.php on line 2
+[15-Oct-2016 22:02:47 UTC] PHP Stack trace:
+[15-Oct-2016 22:02:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/index.php:0
+[15-Oct-2016 22:02:47 UTC] PHP Fatal error:  require_once(): Failed opening required 'models/user.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/login/index.php on line 2
+[15-Oct-2016 22:02:47 UTC] PHP Stack trace:
+[15-Oct-2016 22:02:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/index.php:0
+[15-Oct-2016 22:03:02 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/login/index.php on line 28
+[15-Oct-2016 22:03:02 UTC] PHP Stack trace:
+[15-Oct-2016 22:03:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/index.php:0
+[15-Oct-2016 22:03:02 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/login/index.php on line 28
+[15-Oct-2016 22:03:02 UTC] PHP Stack trace:
+[15-Oct-2016 22:03:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/index.php:0
