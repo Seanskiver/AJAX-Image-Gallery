@@ -98,6 +98,8 @@ $('#login-form').submit(function(e) {
 			succeed(message, 'login-success');
 			
 			$('#nav-load').load('views/nav.php');
+			// Remove login warning
+			$('#login-warning').css('display', 'none');
 		},
 		statusCode: {
 			401: function(err){
@@ -153,6 +155,7 @@ $('#nav-load').on('click', '#logout', function() {
 		data: formData,
 		success: function(data) {
 			$('#nav-load').load('views/nav.php');
+			$('#login-warning').css('display', 'inline-block');
 		}
 	});
 });
